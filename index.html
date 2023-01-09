@@ -21,7 +21,7 @@
         }
         .content {
             position: absolute;
-            top: 30%;
+            top: 20%;
         }
         time {
             left: 0;
@@ -35,15 +35,82 @@
             line-height: 90px;
             font-weight: bold;
         }
+        table, th, td {
+            padding-top: 0px;
+            padding-right: 25px;
+            padding-bottom: 0px;
+            padding-left: 25px;
+            // border: 1px solid;
+            color: #1c7bb7;
+            font-family: Arial, serif;
+            font-size: 30px;
+        }
     </style>
 </head>
 <body>
     <div class="content">
-        <time><u>Eldata.nu - Pris per kWh</u></time> <br>
-        <time>SE-1 &nbsp &nbsp Idag: 0.1981:- &nbsp &nbsp Dec: 2.1249:-</time> <br>
-        <time>SE-2 &nbsp &nbsp Idag: 0.1981:- &nbsp &nbsp Dec: 2.1257:-</time> <br>
-        <time>SE-3 &nbsp &nbsp Idag: 0.1981:- &nbsp &nbsp Dec: 2.7766:-</time> <br>
-        <time>SE-4 &nbsp &nbsp Idag: 0.1981:- &nbsp &nbsp Dec: 2.8017:-</time> <br>
+        <time><u>Eldata.nu - Pris per kWh</u></time> <br> <br>
+        <table>
+            <tr>
+                <th>Område</th>
+                <th>Igår</th>
+                <th>Idag</th>
+                <th>Imorgon</th>
+            </tr>
+            <tr>
+                <td>SE1</td>
+                <td>0.817:-</td>
+                <td>0.433:-</td>
+                <td>0.858:-</td>
+            </tr>
+            <tr>
+                <td>SE2</td>
+                <td>0.817:-</td>
+                <td>0.433:-</td>
+                <td>0.858:-</td>
+            </tr>
+            <tr>
+                <td>SE3</td>
+                <td>0.848:-</td>
+                <td>0.433:-</td>
+                <td>1.329:-</td>
+            </tr>
+            <tr>
+                <td>SE4</td>
+                <td>0.854:-</td>
+                <td>0.433:-</td>
+                <td>1.372:-</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <th>Snitt</th>
+                <th>December 2022</th>
+                <th>Januari 2023</th>
+            </tr>
+            <tr>
+                <td>SE1</td>
+                <td>2.059:-</td>
+                <td>0.858:-</td>
+            </tr>
+            <tr>
+                <td>SE2</td>
+                <td>2.06:-</td>
+                <td>0.858:-</td>
+            </tr>
+            <tr>
+                <td>SE3</td>
+                <td>2.689:-</td>
+                <td>0.992:-</td>
+            </tr>
+            <tr>
+                <td>SE4</td>
+                <td>2.714:-</td>
+                <td>0.997:-</td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
